@@ -1,0 +1,87 @@
+/* pages/warn/index.wxss */
+
+.title {
+  padding: 30rpx 0 30rpx 50rpx;
+  font-size: 28rpx;
+  color: #000;
+}
+
+checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+}
+
+.checkbox {
+  width: 45%;
+  border: 2px solid #b9dd08;
+  margin-top: 36rpx;
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-weight: bolder;
+  font-size: 30rpx;
+  border-radius: 6px;
+}
+
+.checkbox:nth-child(1), .checkbox:nth-child(2) {
+  margin-top: 0;
+}
+
+.action-photos {
+  display: block;
+  padding: 40rpx 60rpx 40rpx;
+  background-color: #fff;
+}
+
+.action-photos image{
+  height: 120rpx;
+  width: 120rpx;
+  margin-right: 10rpx;
+  display: inline-block;
+  position: relative;
+  overflow: visible;
+  vertical-align: top;
+}
+
+.action-photos image icon.del {
+  position: absolute;
+  top: -10rpx;
+  right: -10rpx;
+}
+
+.action-photos text {
+  display: inline-block;
+  height: 120rpx;
+  width: 120rpx;
+  border: 2px dotted #ccc;
+  font-size: 25rpx;
+  text-align: center;
+  line-height: 120rpx;
+  margin-right: 20rpx;
+}
+
+.action-input {
+  background-color: #fff;
+  padding: 40rpx 0 50rpx;
+  border-top: 30rpx solid #f2f2f2;
+}
+
+.action-input input {
+  padding: 40rpx 20rpx;
+  width: 100%;
+}
+
+.action-input input:nth-child(1) {
+  border-bottom: 2px dashed #ccc;
+}
+
+.action-submit {
+  background-color: #f2f2f2;
+  padding: 40rpx;
+}
+.action-submit button {
+  background-color: #b9dd08;
+}

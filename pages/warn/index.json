@@ -1,0 +1,9 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#b9dd08",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "报障维修",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}

@@ -1,0 +1,27 @@
+/* pages/recharge/index.wxss */
+.title {
+  padding: 40rpx;
+  font-size: 32rpx;
+}
+
+.input {
+  width: 100%;
+}
+
+.input input {
+  display: block;
+  width: 80%;
+  margin:0 auto;
+  background-color: #fff;
+  padding: 25rpx 30rpx;
+  border-radius: 10rpx;
+}
+
+.recharge {
+  background-color: #f2f2f2;
+  padding: 40rpx;
+}
+.recharge button {
+  background-color: #b9dd08;
+  font-weight: 900;
+}

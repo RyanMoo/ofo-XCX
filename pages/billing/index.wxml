@@ -1,0 +1,19 @@
+<!--pages/billing/index.wxml-->
+<view class="container">
+  <view class="number">
+    <text>当前车辆编号：{{number}}</text>
+  </view>
+  <view class="timer">
+    <view class="timer-title">
+      <text>{{billing}}</text>
+    </view>
+    <view class="timer-content">
+      {{hours}}:{{minutes}}:{{seconds}}    
+    </view>
+  </view>
+  <view class="end-ride">
+    <button type="warn" bindtap="endride" disabled="{{disable}}">结束骑行</button>
+    <button type="primary" bindtap="movetoIndex">回到首页</button>
+  </view>
+</view>
+

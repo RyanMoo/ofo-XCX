@@ -1,0 +1,17 @@
+<!--pages/my/index.wxml-->
+<view class="container">
+  <view class="myPic" wx:if="{{myPic !== ''}}">
+    <image src="{{myPic}}"></image>
+  </view>
+  <view class="myNickName">
+    <text>{{myNickName}}</text>
+  </view> 
+  <view class="myWallet" wx:if="{{myPic !== ''}}" bindtap="movetoWallet">
+    <text>我的钱包</text>
+    <text>></text>
+  </view>
+
+  <view class="btn-login">
+    <button type="{{btnType}}" bindtap="login">{{login}} </button>
+  </view>
+</view>

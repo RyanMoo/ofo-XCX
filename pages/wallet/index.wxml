@@ -1,0 +1,31 @@
+<!--pages/wallet/index.wxml-->
+<view class="container">
+  <view class="head">
+    <view class="title">
+      <text>我的余额（元）</text>
+    </view>
+    <view class="money">
+      {{money}}
+    </view>
+    <view class="explain">
+      <text>余额说明</text>
+    </view>
+  </view>
+  <view class="recharge">
+    <button bindtap="recharge">充值</button>
+  </view>
+  <view class="middle">
+    <view class="ticket">
+      <text>我的用车券</text>
+      <text>0张></text>
+    </view>
+    <view class="deposit">
+      <text>我的押金</text>
+      <text>99元，押金退款></text>
+    </view>
+  </view>
+  <view class="bottom">
+    <text>关于ofo</text>
+    <text>></text>
+  </view>
+</view>

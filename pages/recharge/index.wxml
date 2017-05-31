@@ -1,0 +1,13 @@
+<!--pages/recharge/index.wxml-->
+<view class="container">
+  <view class="title">
+    <text>请输入充值金额</text>
+  </view>
+  <view class="input">
+    <input bindinput="input"/>
+  </view>
+  <view class="recharge">
+    <button bindtap="recharge">充值</button>
+  </view>
+
+</view>
